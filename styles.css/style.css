@@ -1,3 +1,9 @@
 .header {
   background-color: white;
+  color: var(--black-text);
+}
+
+.btn-portf {
+  border: none;
+  background-color: var(--back-team);
 }
