@@ -5,8 +5,6 @@
 
   --grey-text: rgba(117, 117, 117, 1);
 
-  --black-text: rgba(33, 33, 33, 1);
-
   --back-light-white: rgba(33, 33, 33, 1);
 
   --back-hero: rgba(47, 48, 58, 1);
@@ -14,4 +12,8 @@
   --back-team: rgba(245, 244, 250, 1);
 
   --back-footer: rgba(47, 48, 58, 1);
+
+  --logo: rgba(33, 150, 243, 1);
+
+  --fon: rgba(47, 48, 58, 1);
 }

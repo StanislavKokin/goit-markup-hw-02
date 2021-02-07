@@ -7,3 +7,51 @@
   border: none;
   background-color: var(--back-team);
 }
+
+.web {
+  color: var(--logo);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.footer-logo {
+  color: var(--white-text);
+}
+
+footer {
+  background-color: var(--fon);
+}
+
+.hero {
+  background-color: var(--fon);
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2px;
+  letter-spacing: 0.03em;
+}
+
+.header-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1px;
+  letter-spacing: 0.02em;
+  color: var(--back-light-white);
+}
