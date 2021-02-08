@@ -79,7 +79,7 @@ footer {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--back-team);
+  color: var(--white-text);
 }
 .hero-href {
   color: var(--white-text);
@@ -96,11 +96,52 @@ footer {
   text-transform: uppercase;
   color: var(--back-light-white);
 }
-.h3-speh {
+.h3-speh-text {
   font-family: 'Roboto' sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7px;
   letter-spacing: 0.03em;
+  color: var(--back-light-white);
+}
+
+.our-deals {
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--back-light-white);
+}
+.our-team {
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 11.2px;
+  letter-spacing: 0.03em;
+}
+.our-team {
+  background-color: var(--back-team);
+}
+
+.names {
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2px;
+  letter-spacing: 0.03em;
+}
+.card-text {
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2px;
+  letter-spacing: 0.03em;
+  color: var(--grey-text);
 }
