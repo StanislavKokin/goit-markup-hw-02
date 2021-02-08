@@ -172,6 +172,7 @@ textarea {
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
+
 address {
   font-style: normal;
 }
@@ -179,6 +180,7 @@ address {
 ul {
   list-style: none;
 }
+
 /**
 Remove the inheritance of text transform in Edge and Firefox.
 1. Remove the inheritance of text transform in Firefox.
@@ -186,7 +188,6 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
-  /* 1 */
   text-transform: none;
 }
 
@@ -291,4 +292,8 @@ Add the correct display in Chrome and Safari.
 
 summary {
   display: list-item;
+}
+
+a {
+  text-decoration: none;
 }

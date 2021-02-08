@@ -6,6 +6,19 @@
 .btn-portf {
   border: none;
   background-color: var(--back-team);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn-portf:hover,
+.btn-portf:focus {
+  background-color: var(--back-team);
+  color: var(--white-text);
 }
 
 .web {
@@ -55,6 +68,7 @@ footer {
   letter-spacing: 0.02em;
   color: var(--back-light-white);
 }
+
 .header-text:hover,
 .header-text:focus {
   color: var(--logo);
@@ -68,12 +82,14 @@ footer {
 .nav:focus {
   color: var(--logo);
 }
+
 .hero-centr {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+
   /* or 136% */
 
   text-align: center;
@@ -81,6 +97,7 @@ footer {
   text-transform: uppercase;
   color: var(--white-text);
 }
+
 .hero-href {
   color: var(--white-text);
   background-color: var(--logo);
@@ -96,6 +113,7 @@ footer {
   text-transform: uppercase;
   color: var(--back-light-white);
 }
+
 .h3-speh-text {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -116,6 +134,7 @@ footer {
   letter-spacing: 0.03em;
   color: var(--back-light-white);
 }
+
 .our-team {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -124,6 +143,7 @@ footer {
   line-height: 11.2px;
   letter-spacing: 0.03em;
 }
+
 .our-team {
   background-color: var(--back-team);
 }
@@ -136,6 +156,7 @@ footer {
   line-height: 1.2px;
   letter-spacing: 0.03em;
 }
+
 .card-text {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -144,4 +165,32 @@ footer {
   line-height: 1.2px;
   letter-spacing: 0.03em;
   color: var(--grey-text);
+}
+
+.name-project {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--back-light-white);
+}
+
+.text-project {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9px;
+
+  letter-spacing: 0.03em;
+}
+
+.studio {
+  color: black;
+}
+
+a {
+  text-decoration: none;
 }
