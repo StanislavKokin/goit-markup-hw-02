@@ -38,7 +38,7 @@ footer {
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: 'Raleway' sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -47,11 +47,60 @@ footer {
 }
 
 .header-text {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1px;
   letter-spacing: 0.02em;
   color: var(--back-light-white);
+}
+.header-text:hover,
+.header-text:focus {
+  color: var(--logo);
+}
+
+.nav {
+  color: var(--grey-text);
+}
+
+.nav:hover,
+.nav:focus {
+  color: var(--logo);
+}
+.hero-centr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--back-team);
+}
+.hero-href {
+  color: var(--white-text);
+  background-color: var(--logo);
+}
+
+.h3-speh {
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--back-light-white);
+}
+.h3-speh {
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7px;
+  letter-spacing: 0.03em;
 }
