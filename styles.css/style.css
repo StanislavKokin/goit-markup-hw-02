@@ -38,7 +38,7 @@ footer {
 }
 
 .logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -69,7 +69,7 @@ footer {
   color: var(--logo);
 }
 .hero-centr {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -87,7 +87,7 @@ footer {
 }
 
 .h3-speh {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -97,7 +97,7 @@ footer {
   color: var(--back-light-white);
 }
 .h3-speh-text {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -107,7 +107,7 @@ footer {
 }
 
 .our-deals {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -117,7 +117,7 @@ footer {
   color: var(--back-light-white);
 }
 .our-team {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -129,7 +129,7 @@ footer {
 }
 
 .names {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -137,7 +137,7 @@ footer {
   letter-spacing: 0.03em;
 }
 .card-text {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
