@@ -10,15 +10,17 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6px;
+  line-height: 1.6em;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .btn-portf:hover,
 .btn-portf:focus {
-  background-color: var(--back-team);
-  color: var(--white-text);
+  background-color: var(--logo);
+  color: var(--white-text)
+  border:transparent;
+
 }
 
 .web {
@@ -55,7 +57,7 @@ footer {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.2px;
+  line-height: 1.2em;
   letter-spacing: 0.03em;
 }
 
@@ -64,7 +66,7 @@ footer {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1px;
+  line-height: 1.1em;
   letter-spacing: 0.02em;
   color: var(--back-light-white);
 }
@@ -76,6 +78,12 @@ footer {
 
 .nav {
   color: var(--grey-text);
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1em;
+letter-spacing: 0.02em;
 }
 
 .nav:hover,
@@ -101,6 +109,12 @@ footer {
 .hero-href {
   color: var(--white-text);
   background-color: var(--logo);
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.9em;
+letter-spacing: 0.06em;
 }
 
 .h3-speh {
@@ -119,7 +133,7 @@ footer {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.7em;
   letter-spacing: 0.03em;
   color: var(--back-light-white);
 }
@@ -140,7 +154,7 @@ footer {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 11.2px;
+  line-height: 11.2em;
   letter-spacing: 0.03em;
 }
 
@@ -153,7 +167,7 @@ footer {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2px;
+  line-height: 1.2em;
   letter-spacing: 0.03em;
 }
 
@@ -182,7 +196,7 @@ footer {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.9px;
+  line-height: 1.9em;
 
   letter-spacing: 0.03em;
 }
@@ -193,4 +207,15 @@ footer {
 
 a {
   text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+.current {
+  color: var(--logo);
 }
