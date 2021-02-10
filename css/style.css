@@ -6,7 +6,6 @@
 .btn-portf {
   border: none;
   background-color: var(--back-team);
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -18,9 +17,8 @@
 .btn-portf:hover,
 .btn-portf:focus {
   background-color: var(--logo);
-  color: var(--white-text)
-  border:transparent;
-
+  color: var(--white-text);
+  border: transparent;
 }
 
 .web {
@@ -62,7 +60,6 @@ footer {
 }
 
 .header-text {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -78,12 +75,11 @@ footer {
 
 .nav {
   color: var(--grey-text);
-  font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.1em;
-letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1em;
+  letter-spacing: 0.02em;
 }
 
 .nav:hover,
@@ -92,7 +88,6 @@ letter-spacing: 0.02em;
 }
 
 .hero-centr {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -109,16 +104,14 @@ letter-spacing: 0.02em;
 .hero-href {
   color: var(--white-text);
   background-color: var(--logo);
-  font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.9em;
-letter-spacing: 0.06em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9em;
+  letter-spacing: 0.06em;
 }
 
 .h3-speh {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -129,7 +122,6 @@ letter-spacing: 0.06em;
 }
 
 .h3-speh-text {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -139,7 +131,6 @@ letter-spacing: 0.06em;
 }
 
 .our-deals {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -150,7 +141,6 @@ letter-spacing: 0.06em;
 }
 
 .our-team {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -163,7 +153,6 @@ letter-spacing: 0.06em;
 }
 
 .names {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -172,7 +161,6 @@ letter-spacing: 0.06em;
 }
 
 .card-text {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -182,7 +170,6 @@ letter-spacing: 0.06em;
 }
 
 .name-project {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -192,7 +179,6 @@ letter-spacing: 0.06em;
 }
 
 .text-project {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -211,11 +197,19 @@ a {
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.03em;
 }
 
 .current {
   color: var(--logo);
+}
+
+.adress-kiev {
+  color: var(--white-text);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
 }
